@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                 .column{
+                        float:left;
+                        width:33%;
+                        padding:5 px;
+             }
+         
+             .row::after{
+             content:" ";
+             clear:both;
+             display:table;
+             }
+ 
+    </style>
+</head>
+<body>
+
+    <h2>IMAGES side by side</h2>
+    <p>how to create side by side images with css float property</p>
+    <div class="row">
+        <div class="column">
+            <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg" style="width:60%"alt="S">
+         </div>
+         <div class="column">
+            <img src="https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg" 
+            style="width:110%" alt="S">
+         </div>
+         <div class="column">
+            <img src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg" 
+            style="width:100%" alt="S">
+         </div>
+         </div>
+</body>
+</html>
